@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.teamtreehouse.challenges.homes.MainTest" tests="13" skipped="0" failures="1" errors="0" timestamp="2020-05-27T13:03:04" hostname="VAIO-GABO" time="0.576">
+  <properties/>
+  <testcase name="stateCodesUseDistinctMethod" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.368"/>
+  <testcase name="menuIsInclusive" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.021"/>
+  <testcase name="usesMaxToGatherHousingRecord" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.003"/>
+  <testcase name="stateCodesIgnoreBlanks" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.004"/>
+  <testcase name="maximumHousingRecordReturned" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.003"/>
+  <testcase name="usesMapToIntToGetMinimum" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.003"/>
+  <testcase name="creatingPriceConverterWorksForAllCountries" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.066">
+    <failure message="java.lang.AssertionError: Hmm...double check your 'createPriceConverter' method.  I'm getting different results&#10;Expected: a string containing &quot;1,00 (Euro)&quot;&#10;     but: was &quot;1,00 € (Euro)&quot;" type="java.lang.AssertionError">java.lang.AssertionError: Hmm...double check your 'createPriceConverter' method.  I'm getting different results
+Expected: a string containing &quot;1,00 (Euro)&quot;
+     but: was &quot;1,00 € (Euro)&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:865)
+	at com.teamtreehouse.challenges.homes.MainTest.creatingPriceConverterWorksForAllCountries(MainTest.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.contrib.java.lang.system.internal.LogPrintStream$1$1.evaluate(LogPrintStream.java:30)
+	at org.junit.contrib.java.lang.system.internal.PrintStreamHandler$3.evaluate(PrintStreamHandler.java:48)
+	at org.junit.contrib.java.lang.system.internal.LogPrintStream$1.evaluate(LogPrintStream.java:26)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <testcase name="aRangeIsUsed" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.004"/>
+  <testcase name="stateCodesAreSorted" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.006"/>
+  <testcase name="pricingConverterRemovedFixMe" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.048"/>
+  <testcase name="minimumHomeIndexReturned" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.008"/>
+  <testcase name="menuStartsAt1" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.002"/>
+  <testcase name="argentinaRecordsAreFormattedAndConverted" classname="com.teamtreehouse.challenges.homes.MainTest" time="0.023"/>
+  <system-out><![CDATA[1. HI
+2. MOM
+1. HI
+2. MOM
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
